@@ -1,4 +1,4 @@
-# PROGRAMA EN JAVA PARA GUARDAR LAS VARIABLES
+# PROGRAMA HELLO WORLD PYTHON
 #Hecho por: Enrique Rodriguez Vela 7/11/17
 #Version 0.1
 #Sistema operativo: Lubuntu
@@ -6,6 +6,3 @@
 #
 
 print("Hello World!")
-print ("Cual es tu nombre")
-myName = input()
-print ("Encantado de conocerte, " + myName)
