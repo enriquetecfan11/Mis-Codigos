@@ -1,6 +1,8 @@
-//              Codigo Robot                 //
-//           Enrique Rodriguez Vela         //
-//               Version 0.1               //
+//Nombre del codigo Codigo Robot                 
+//Autor Enrique Rodriguez Vela Enero 2018      
+//Descripcion Movimiento Motores                             
+//Version 0.1               
+
 
 // Definimos los pines de los motores 
 int in1 = 7; 
@@ -22,8 +24,8 @@ Serial.begin(9600);
 
 void loop (){
   digitalWrite(in1, LOW);
-  digitalWrite(in4, LOW);
-  digitalWrite(in2, HIGH);
+  digitalWrite(in4, HIGH);
+  digitalWrite(in2, LOW);
   digitalWrite(in3, HIGH);
   Serial.print("Adelante");
  
